@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW cat AS SELECT catalogs.name AS catalogs, products.name AS products FROM products JOIN catalogs ON products.catalog_id = catalogs.id;

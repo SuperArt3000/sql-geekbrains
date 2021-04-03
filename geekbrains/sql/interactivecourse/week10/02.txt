@@ -1,0 +1,21 @@
+127.0.0.1:6379> HSET users R2-D2 r2d2@test.com
+(integer) 1
+127.0.0.1:6379> HSET users C-3PO c3po@test.com
+(integer) 1
+127.0.0.1:6379> HGET users C-3PO
+"c3po@test.com"
+127.0.0.1:6379> HGET users R2-D2
+"r2d2@test.com"
+
+127.0.0.1:6379> HSET emails r2d2@test.com R2-D2
+(integer) 1
+127.0.0.1:6379> HSET emails c3po@test.com C-3PO
+(integer) 1
+127.0.0.1:6379> HGET emails c3po@test.com
+"C-3PO"
+127.0.0.1:6379> HGET emails r2d2@test.com
+"R2-D2"
+
+127.0.0.1:6379> KEYS *
+1) "emails"
+2) "users"

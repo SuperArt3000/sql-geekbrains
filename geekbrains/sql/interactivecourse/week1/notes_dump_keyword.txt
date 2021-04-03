@@ -1,0 +1,1 @@
+sudo mysqldump mysql help_keyword --where="true limit 100" > dump_keyword.sql
