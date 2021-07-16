@@ -1,5 +1,7 @@
 ___
+
 # Вне четверти
+
 ___
 
 ### Основные темы курса:
@@ -14,4 +16,5 @@ ___
 * [Неделя 9.](https://github.com/zurbaevi/SQL-GeekBrains/tree/main/geekbrains/sql/interactivecourse/week9) Оптимизация запросов
 * [Неделя 10.](https://github.com/zurbaevi/SQL-GeekBrains/tree/main/geekbrains/sql/interactivecourse/week10) NoSQL
 #### [Сертификат](https://geekbrains.ru/certificates/959340)
+
 ____
